@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; 
+}
+body{
+    width: 100%;
+    display: block; 
+}
+p{
+    text-align: justify;
+}
+header,main{
+    padding: 0px 200px;
+}
+nav{
+    background-color: rgb(52, 190, 190);
+}
+nav p{
+    text-align:  center;
+    font-size: 90px;
+    font-family: tahoma;
+}
+@media only screen and (max-width:980px){
+    header,main{
+        padding: 0px 20px;
+    }
+    /*esto sirve para que se desaparezca la parte del codigo en otro screen*/
+    .texto-llamativo{
+        display: none;
+    }   
+}
